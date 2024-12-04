@@ -1,0 +1,108 @@
+.sub-slide-c {
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 0 30px 20px;
+
+    h2 {
+        font-size: 50px;
+        font-family: "Poppins", sans-serif;
+        color: rgb(122, 170, 122);
+    }
+
+    p {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        color: rgb(43 61 43);
+        padding: 0;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    color: rgb(122, 170, 122);
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+form input {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+form input:focus {
+    border: 1px solid #4f9678;
+}
+
+form textarea {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+form textarea:focus {
+    border: 1px solid #4f9678;
+}
+
+form .submit {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid rgb(122, 170, 122);
+    color: #4f9678;
+    transition: all 1s;
+    border-radius: 12px;
+}
+
+form .submit:hover {
+    background-color: rgb(247, 252, 247);
+    border: 2px solid #4f9678;
+}
+
+@media (max-width: 768px) {
+    .sub-slide-c {
+        padding: 20px;
+    
+        h2 {
+        font-size: 45px;
+        font-family: "Poppins", sans-serif;
+        color: rgb(122, 170, 122);
+        }
+
+        p {
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: rgb(43 61 43);
+        padding: 0;
+        }
+    }
+}

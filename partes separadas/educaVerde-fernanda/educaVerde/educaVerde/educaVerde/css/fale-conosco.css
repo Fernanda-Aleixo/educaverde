@@ -1,0 +1,34 @@
+/* fale conosco */
+.fale-conosco-btn {
+    background-color: #4f9678;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+  }
+  
+  .fale-conosco {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .fale-conosco-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .fale-conosco-content a, p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .fale-conosco-content a:hover {background-color: #ddd;}
+
+  .fale-conosco:hover .fale-conosco-content {display: block;}
+  
+  .fale-conosco:hover .fale-conosco-btn {background-color: #61c089;}

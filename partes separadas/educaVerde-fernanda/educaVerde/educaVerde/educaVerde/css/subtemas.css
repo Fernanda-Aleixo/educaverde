@@ -1,0 +1,155 @@
+.desmatamento-container {
+    background-color: rgb(224, 243, 224);
+
+    .img {
+        background-image: url(../img/alice/mato.jpg);
+        background-size: cover;
+
+    }
+}
+
+.sub-slide {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+    padding-top: 40px;
+
+    h2 {
+        font-size: 70px;
+        font-family: "Poppins", sans-serif;
+        color: rgb(122, 170, 122);
+    }
+
+    p {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        color: rgb(43 61 43);
+        padding: 0;
+        padding-bottom: 20px;
+    }
+}
+
+.sub-slide-p {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+    padding-top: 20px;
+    /* color: rgb(255, 255, 255); */
+    
+    .img {
+        width: 40%;
+    }
+
+    h2 {
+        font-size: 70px;
+        font-family: "Poppins", sans-serif;
+        color: rgb(122, 170, 122);
+    }
+
+    p {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        /* margin-bottom: 15px; */
+        /* padding: 0; */
+        color: rgb(43 61 43);
+    }
+
+    .conteudo {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.textinho {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    p {
+        font-size: 20px;
+        text-align: right;
+        padding: 0;
+    }
+}
+
+.verde {
+    background-color: rgb(224, 243, 224);
+    border-radius: 0px 250px 0px 0px;
+    padding-bottom: 10px;
+    border-block: rgb(122, 170, 122) 4px solid;
+    border-bottom: none;
+}
+
+.sub-slide-c {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+    padding: 40px 0;
+    /* color: rgb(255, 255, 255); */
+    
+    .formulario {
+        width: 50%;
+        background-color: aliceblue;
+    }
+
+    h2 {
+        font-size: 70px;
+        font-family: "Poppins", sans-serif;
+        color: rgb(122, 170, 122);
+    }
+
+    p {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+        /* margin-bottom: 15px; */
+        /* padding: 0; */
+        color: rgb(43 61 43);
+        padding: 0;
+    }
+
+    .conteudo {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sub-img {
+        width: 50%;
+    }
+
+    .button-sub {
+        color: rgb(122, 170, 122);
+        padding: 8px 12px;
+        border: rgb(122, 170, 122) 1px solid;
+        border-radius: 25px;
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        transition: all 300ms ease-in-out;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    .button-sub:hover {
+        background-color: rgb(122, 170, 122);
+        color: rgb(224, 243, 224);
+    }
+
+    /* .button-sub:hover {
+        background-color: #fff;
+        color: rgb(59, 126, 64);
+    } */
+
+}

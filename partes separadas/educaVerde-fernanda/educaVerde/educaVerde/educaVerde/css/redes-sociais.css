@@ -1,0 +1,67 @@
+#redes-sociais {
+    z-index: 15;
+    position: fixed;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 10px; */
+    background-color: #4f9678;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    
+    .facebook, .instagram, .twitter {
+        color: transparent;
+    }
+}
+
+#redes-sociais:hover {
+    left: 5px;
+
+    .facebook, .instagram, .twitter {
+        color: white;
+    }
+}
+
+#redes-sociais a {
+    color: rgba(255, 255, 255, 0.966);
+    /* background-color: rgb(28, 40, 75); */
+    font-size: 30px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+
+    transition: all 0.4s ease;
+    /* transition-duration: 0.4s; */
+    /* transition-property: background-color; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#redes-sociais .facebook:hover{
+    background-color: #4ba0ac;
+}
+
+#redes-sociais .instagram:hover{
+    background-color: rgba(216, 61, 255, 0.388);
+}
+
+#redes-sociais .twitter:hover{
+    background-color: rgba(1, 8, 97, 0.322);
+}
+
+#redes-sociais .twitter {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#redes-sociais .facebook {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

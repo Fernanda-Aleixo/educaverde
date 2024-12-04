@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+.imagem-introducao {
+    position: relative;
+    display: inline-block;
+}
+
+.imagem-introducao::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 255px;
+    margin-left: 371px;
+    height: 775px;
+    background: rgb(122, 170, 122);
+    border-radius: 0px 0px 120px 120px;
+    transform: translate(-10%, -10%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+.imagem-introducao-rrr {
+    position: relative;
+    display: inline-block;
+}
+
+.imagem-introducao-rrr::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 255px;
+    margin-left: 371px;
+    height: 775px;
+    background: rgb(151, 196, 151);
+    border-radius: 0px 0px 120px 120px;
+    transform: translate(-10%, -10%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+.img-introducao {
+    position: relative;
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.introducao-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 45px;
+    z-index: 7;
+}
+
+.texto-introducao {
+    flex: 1;
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.texto-introducao h1 {
+    margin-bottom: 15px;
+    font-size: 60px;
+    color: rgb(122, 170, 122);
+}
+
+.texto-introducao p {
+    font-size: 18px;
+}
+
+.texto-introducao-rrr {
+    flex: 1;
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    text-align: justify;
+    margin-right: 100px;
+
+    h1 {
+        margin-bottom: 15px;
+        color: rgb(122, 170, 122);
+        font-size: 60px;
+    }
+
+    .p {
+        font-size: 18px;
+    }
+}
+
+.beneficios-container {
+    background-color: rgb(224, 243, 224);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-icon {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon img {
+    width: 70px;
+    height: 60px;
+}
+
+.card h3 {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666666;
+    margin: 10px 0;
+}
+
+.card-link {
+    display: inline-block;
+    font-size: 18px;
+    color: #4CAF50;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.card-link:hover {
+    color: #388E3C;
+}
+
+.card ul {
+    list-style-type: none;
+    text-align: justify;
+    padding: 10px;
+}
+
+.card h3 {
+    color: rgb(122, 170, 122);
+
+}
+
+.texto-beneficios h1 {
+    padding-top: 65px;
+    font-size: 60px;
+    padding-left: 30px;
+    color: rgb(122, 170, 122);
+}
+
+.texto-beneficios {
+    padding-bottom: 25px;
+}
+
+.texto-beneficios p {
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.card1 {
+    margin-bottom: 30px;
+}
+
+.texto-ideias h1 {
+    padding-top: 30px;
+    font-size: 60px;
+    padding-left: 30px;
+    color: rgb(122, 170, 122);
+}
+
+.texto-ideias {
+    padding-bottom: 60px;
+}
+
+.texto-ideias p {
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.ideias-container {
+    background-color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.texto-plantas h1 {
+    padding-top: 60px;
+    font-size: 60px;
+    padding-left: 30px;
+    color: rgb(122, 170, 122);
+}
+
+.texto-plantas {
+    padding-bottom: 60px;
+}
+
+.texto-plantas p {
+    font-size: 18px;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+.plantas-container {
+    background-color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 70px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card-planta {
+    background-color: rgb(224, 243, 224);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-planta:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transform-origin: center;
+}
+
+.card-planta img {
+    width: 150px;
+    border-bottom: 1px solid #e0e0e0;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-planta h3 {
+    font-size: 18px;
+    color: rgb(122, 170, 122);
+    margin: 10px 0;
+    text-align: center;
+}
+
+.card-planta p {
+    font-size: 14px;
+    color: #0c0c0c;
+    margin: 10px 20px;
+    display: none;
+    transition: opacity 0.3s ease;
+    text-align: justify;
+}
+
+.card-planta:hover p {
+    display: block;
+    opacity: 1;
+}
+
+.texto-ideias .imagens {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.texto-ideias img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#ideias {
+    width: 100%;
+    padding: 20px;
+}
+
+.ideias-container {
+    display: flex;
+    gap: 20px;
+}
+
+.parte1 {
+    flex: 0 0 65%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.parte1 h1 {
+    padding-bottom: 10px;
+}
+
+.parte2 {
+    flex: 0 0 35%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.parte1 p {
+    text-align: justify;
+}
+
+.imagens img {
+    width: 280px;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    margin-top: 0px;
+}
+
+.imagens {
+    margin-left: 30px;
+}
+
+.Mini-Hortas,
+.Hortas-escolares,
+.Jardinagem-com {
+    margin-bottom: 20px;
+}
+
+.parte2 h2 {
+    font-size: 26px;
+    color: rgb(122, 170, 122);
+    margin: 10px 0;
+    text-align: start;
+}
+
+.parte2 p {
+    text-align: justify;
+}
+
+.horta-container {
+    background-color: rgb(224, 243, 224);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.texto-horta h1 {
+    padding-top: 60px;
+    font-size: 60px;
+    padding-left: 30px;
+    color: rgb(122, 170, 122);
+    text-align: center;
+}
+
+.texto-horta p {
+    font-size: 18px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.topics-container-rrr {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 40px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.topics-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.topic {
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding: 10px 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.topic:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.topic h3 {
+    font-size: 18px;
+    color: rgb(122, 170, 122);
+    margin: 10px 0;
+    text-align: start;
+    padding-left: 15px;
+}
+
+.topic p {
+    font-size: 14px;
+    color: #0c0c0c;
+    margin: 10px 15px;
+    text-align: justify;
+}
+
+.number {
+    background-color: rgb(122, 170, 122);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.topic:hover .number {
+    transform: scale(1.2);
+}

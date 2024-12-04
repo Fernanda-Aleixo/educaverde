@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+/* HEADER */
+#header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: rgb(224 243 224 / 0%);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 40px;
+  width: 100%;
+  transition: background-color 0.6s ease;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin: 10px;
+}
+
+.educaverde {
+  font-family: "Spicy Rice", serif;
+  font-weight: 200;
+  font-size: 30px;
+  color:  rgb(224, 243, 224);
+  text-decoration: none;
+}
+
+.lista-header {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  list-style: none;
+}
+
+.atalhos {
+  color: rgb(224, 243, 224);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.atalhos:hover {
+  color: rgb(224, 243, 224);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#header-sobrenos {
+  background-color: #4f9678;
+  align-items: center;
+}
+
+#educacao {scroll-margin-top: 65px;}
+#problemas {scroll-margin-top: 70px;}
+#medidas {scroll-margin-top: 65px;}
+
+@media (max-width: 768px) {
+  #header {
+    max-width: 768px;
+  }
+
+  .header-container {
+    padding: 5px 10px;
+  }
+
+  .lista-header {
+    padding: 0;
+  }
+
+  .educaverde {
+    font-size: 25px;
+  }
+
+  .logo {
+    height: 40px;
+    margin: 8px;
+  }
+
+  .atalhos {
+      font-size: 15px;
+  }
+}
+
+/* FIM HEADER */
+
+/* FOOTER */
+#footer-section {
+  background-color: #4f9678;
+}
+
+.footer-container {
+  padding: 40px 0 40px 0;
+  background-color: #4f9678;
+  color: rgb(224, 243, 224);
+}
+
+.footer-flex {
+  display: flex;
+  font-weight: 700;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease;
+}
+
+.email {
+  padding: 0;
+  color: rgb(224, 243, 224);
+}
+
+.footer-flex a {
+  text-decoration: none;
+  color: rgb(224, 243, 224);
+  transition: color .3s;
+}
+
+.footer-flex a:hover {
+  color: rgb(224, 243, 224);
+  text-decoration: underline;
+}
+
+.linha {
+  height: 20px;
+  border-right: 1px solid rgb(224, 243, 224);
+}
+
+/* FIM FOOTER */

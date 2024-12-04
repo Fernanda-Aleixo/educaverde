@@ -1,0 +1,273 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(247, 252, 247);
+    overflow: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    p {
+        font-family: "Nunito", sans-serif;
+    }
+}
+
+/* INTRODUÇÃO */
+.introducao {
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    p {
+        padding: 0px;
+        color: rgb(22 30 22);
+        text-align: justify;
+        font-size: 19px;
+    }
+}
+
+.titulo-maior {
+    font-size: 60px;
+    color: rgb(122, 170, 122);
+}
+
+/* FIM INTRODUÇÃO */
+
+/* PREVENCAO */
+.prevencao-container {
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.titulo-prevencao {
+    text-align: center;
+}
+
+.grid-prevencao {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    justify-items: center;
+    gap: 20px;
+    padding-top: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.maneiras-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2px solid #f5f5f5;
+    font-size: 14px;
+    line-height: 15px !important;
+    padding: 25px;
+    min-width: 230px !important;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.maneiras-nav:hover {
+    background-color: rgb(224, 243, 224);
+    /* Cor de fundo ao passar o mouse */
+    border-color: #d0d0d0;
+    /* Muda a cor da borda ao passar o mouse */
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.3);
+    /* Sombra mais intensa */
+}
+
+.titulo-maneiras {
+    padding-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+    /* Cor do texto */
+}
+
+.maneiras-nav:hover .titulo-maneiras {
+    color: #4f9678;
+    /* Altera a cor do título ao passar o mouse */
+}
+
+.texto-maneiras {
+    color: black;
+}
+
+.maneiras-nav:hover .texto-maneiras {
+    color: rgb(122, 170, 122);
+    /* Altera a cor do título ao passar o mouse */
+}
+
+/* Estilo da imagem para melhorar a interatividade */
+.maneiras-nav img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    /* Efeito de transição para a imagem */
+}
+
+.maneiras-nav:hover img {
+    transform: scale(1.05);
+    /* Aumenta um pouco a imagem ao passar o mouse */
+}
+
+.casa {
+    padding: 20px 0;
+}
+
+.luva {
+   padding: 55px 0;
+}
+
+.rrr {
+    width: 80%;
+    height: 80%;
+    padding: 30px 0;
+}
+
+/* FIM PREVENCAO */
+
+.problemas-ambientais {
+    /* height: 305px; */
+    margin: 0 auto;
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 10px 0px;
+
+    .conteudo {
+        /* width: 50%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.fale-conosco-container {
+    background-color: rgb(224, 243, 224);
+
+    .img {
+        background-image: url(../img/alice/mato.jpg);
+        background-size: cover;
+
+    }
+}
+
+.sub-slide {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    text-align: justify;
+
+    h2 {
+        font-size: 50px;
+        font-family: "Poppins", sans-serif;
+        color: rgb(122, 170, 122);
+    }
+
+    p {
+        font-family: "Nunito", sans-serif;
+        font-size: 19px;
+        color: rgb(43 61 43);
+        padding: 0;
+        padding-bottom: 20px;
+    }
+}
+
+.sub-slide-p {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .img {
+        width: 40%;
+    }
+
+    h1 {
+        font-size: 50px;
+        color: rgb(122, 170, 122);
+    }
+
+    p {
+        font-family: "Nunito", sans-serif;
+        font-size: 18px;
+    }
+
+    .conteudo {
+        width: 100%;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+}
+
+.textinho {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    p {
+        font-size: 19px;
+        text-align: right;
+        padding: 0;
+    }
+}
+
+.verde {
+    background-color: rgb(224, 243, 224);
+    border-radius: 0px 600px 550px 0px;
+    margin: 20px 10px 20px 0;
+    padding: 10px 0 40px 0; 
+    border: rgb(122, 170, 122) 3px solid;
+}
+
+@media (max-width: 768px) {
+    .titulo-maior {
+        font-size: 55px;
+    }
+
+    .introducao {
+        padding: 0px 20px;
+    }
+
+    .grid-prevencao {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #prevencao {
+        padding: 0 20px;
+    }
+
+    .verde {
+        border-radius: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0;
+        padding: 10px 20px 20px 20px;
+        border: rgb(122, 170, 122) 3px solid;
+        height: 95dvh;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .sub-slide-p {
+        padding: 0;
+    }
+
+    .sub-slide p {
+        padding: 0px;
+    }
+
+    .prevencao-container {
+        padding-bottom: 30px;
+    }
+}

@@ -1,0 +1,66 @@
+/* HEADER */
+#header {
+    position: relative;
+    left: 0;
+    right: 0;
+    /* z-index: 10; */
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 40px;
+  background-color: #4f9678;
+  width: 100%;
+  transition: background-color 0.6s ease;
+}
+/* Fim HEADER */
+
+.vrd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    img {
+        max-width: 40%;
+        height: 200px;
+    }
+
+    .conteudinho {
+        width: 50%;
+
+        h2 {
+            color: rgb(122, 170, 122);
+            font-size: 70px;
+        }
+
+        p {
+            color: rgb(43 61 43);
+        }
+    }
+}
+
+.verdinho {
+    background-color: rgb(224, 243, 224);
+    padding: 40px 0;
+}
+
+.semVerde {
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 75px;
+    color: rgb(65 81 73);
+    margin-top: 10px;
+}
+
+p {
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    /* margin-bottom: 15px; */
+    /* padding: 0; */
+    color: rgb(22 30 22);
+    margin-bottom: 30px;
+}
